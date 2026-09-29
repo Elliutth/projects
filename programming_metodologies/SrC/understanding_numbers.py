@@ -40,7 +40,7 @@ print(2*0.2)
 #imprimir la edad de alguine
 age = 34 # variable del tipo int
 # message = "charly tiene" + age + "años."
-message = "charly tiene " str(age) " años"
+message = "charly tiene " + str(age) + " años"
 message_f = f"charly tiene {age} años."
 print(message)
 print(message_f)
