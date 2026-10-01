@@ -59,3 +59,5 @@ car.sort() #ordenar listas de manera permanente
 print(car)
 #tarea estudiar el metodo de las listas reverse
 #estudiar metodos build-in sorted(), len()
+several_items = [["charly", "arnoldo"], ["subaru", "tsuru"]]
+print(several_items[1][1])
