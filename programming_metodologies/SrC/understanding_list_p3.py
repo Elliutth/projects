@@ -19,3 +19,30 @@ for magician in magicians:
     print(f"{magician.title()} ese fue un gran hechizo. ")
     print(f"no puedo esperar a ver el siguiente hechizo, {magician.upper()}")
 print("gracias a todos. fue un gran espectaculo")
+
+# Identacion
+"""
+python utiliza la identacion para identificar cuando
+una linea de codigo esta conectada a la linea de codigo
+anterior
+
+basicamente, se utiliza 4 espacios en blanco para
+obligarnos a escribir codigo ordenado y estructurado
+"""
+#No olvidemos identar
+magicians = ["alice", "david", "caroline"] 
+#for magician in magicians
+#print(magician) identation error
+
+#error de logica - logic error - identation error
+for magician in magicians:
+    print(magician) 
+print(f"no puedo esperar a ver el siguiente truco, {magician}")
+
+# Evitar identacion inmecesaria
+message = "hello python world!"
+#    print(message)
+
+# No olvidar los dos puntos - sintax error
+# for magician in magicians
+#    print(magician)
